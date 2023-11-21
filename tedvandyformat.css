@@ -1,0 +1,9 @@
+
+.backing{
+   width:100%; 
+   height: 100vh; 
+   background-image: linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)),url(iridium.jpg); 
+   background-size: cover; 
+   background-position: center;
+   overflow: scroll;
+}

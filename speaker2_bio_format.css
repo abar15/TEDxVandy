@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    #float_order_1 {
+      order: 3;
+    }
+    #float_order_2 {
+      order: 1;
+    }
+    #float_order_3 {
+      order: 2;
+    }
+
+}
+
