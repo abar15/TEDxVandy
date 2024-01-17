@@ -8,3 +8,35 @@
    overflow-x: hidden;
    overflow-y: hidden;
 }
+
+.fade-in-image {animation: fadeIn 1s;}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+
+.hid {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+.hid.BMQ_card{
+    animation-delay: .1s;
+}
+
+.hid.desc_card{
+    
+    animation-delay: .2s;
+}
+
+.hid.button_card{
+    animation-delay: .3s;
+}
