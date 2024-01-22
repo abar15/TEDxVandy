@@ -1,5 +1,3 @@
-
-
 .fade-in-image {animation: fadeIn 1s;}
 
 @keyframes fadeIn {
@@ -40,4 +38,14 @@
     animation-delay: .5s;
 }
 
+.hid.card7{
+    animation-delay: .6s;
+}
 
+.hid.card8{
+    animation-delay: .7s;
+}
+
+.hid.card9{
+    animation-delay: .8s;
+}
