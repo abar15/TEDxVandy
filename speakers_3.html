@@ -15,11 +15,11 @@
     </head>
 
 
-    <body> 
+    <body style = "background-color: black"> 
         <header data-bs-theme="dark">
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"> <img src="logo-white-2.png" style="height:auto; width: 220px;"></a>
+                    <a class="navbar-brand" href="index.html"> <img src="logo-white-3.png" style="height:auto; width: 195px;"></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,15 @@
                                 <a class="nav-link" href="RSVP_2.html">RSVP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="more_info.html">More Info</a>
+                                <a class="nav-link" href="About.html">About</a>
                             </li>
                         </ul>
+
+                        <div style="color: gray; padding-right: 20px;">
+                            <span>Event Countdown: </span>
+                            <span id="demo"></span>
+                            <span>   </span>
+                        </div>
                         
                         <form class="d-flex" role="search" action="about:blank">
                             <input class="form-control me-2 __safly_input_chrome __safly_input_ms" type="search" placeholder="Search" aria-label="Search">
@@ -49,10 +55,11 @@
                 </div> 
             </nav>
         </header>  
+        <br><br><br>
 
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-            <div class="carousel-inner" style = "background-color: black">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container-fluid text-center">
                         <div class="row flex-direction:row" id="float_order">
@@ -537,40 +544,41 @@
                 <footer class="border-top"> <br> </footer>
                 <footer class="container py-3">
                     <div class="row">
-                        <div class="col-12 col-md">
-                            <img src="x_shuttle_3.png" width="85px" height="55px" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
-                            <small class="d-block mb-3 text-body-secondary" style ="color: white !important">TEDxVandenbergSFB 2024</small>
+                        <div class="col-6 col-md">
+                            <img src="x_shuttle_3.png" width="85px" height="55px">
                         </div>
 
                         <div class="col-6 col-md">
                             <h5 style="color:white">Similar Events</h5>
                             <ul class="list-unstyled text-small">
-                            <li><a class="link-light text-decoration-none" href="#">TEDxEdwardsAFB</a></li>
-                            <li><a class="link-light text-decoration-none" href="#">TEDxHillAFB</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.ted.com/tedx/events/48172">TEDxEdwardsAFB</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.ted.com/tedx/events/10693">TEDxHillAFB</a></li>
                             </ul>
                         </div>
 
                         <div class="col-6 col-md">
                             <h5 style="color:white">More About TED</h5>
                             <ul class="list-unstyled text-small">
-                            <li><a class="link-light text-decoration-none" href="#">TED Website</a></li>
-                            <li><a class="link-light text-decoration-none" href="#">Discover TED</a></li>
-                            <li><a class="link-light text-decoration-none" href="#">TEDxTalks Youtube</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.ted.com/">TED Website</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.ted.com/topics">Discover TED</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.youtube.com/user/tedxtalks">TEDxTalks Youtube</a></li>
                             </ul>
                         </div>
 
                         <div class="col-6 col-md">
                             <h5 style="color:white">More About VandenbergSFB</h5>
                             <ul class="list-unstyled text-small">
-                            <li><a class="link-light text-decoration-none" href="#">VandenbergSFB Website</a></li>
-                            <li><a class="link-light text-decoration-none" href="#">Vandneberg News</a></li>
-                            <li><a class="link-light text-decoration-none" href="#">VandenbergSFB Facebook</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.vandenberg.spaceforce.mil/">VandenbergSFB Website</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.vandenberg.spaceforce.mil/News/">Vandneberg News</a></li>
+                            <li><a class="link-light text-decoration-none" href="https://www.facebook.com/SLD30/">VandenbergSFB Facebook</a></li>
                             </ul>
                         </div>
                         
                     </div>
+                    <div style="color:white"><small>This independent TEDx event is operated under license from TED.</small> </div>
                 </footer>
             </div>
         </div>
     </body>
+    <script src="countdown.js"></script>
 </html> 

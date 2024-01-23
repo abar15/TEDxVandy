@@ -9,12 +9,11 @@
         <title>TEDxVandy </title>
     </head>
 
-
     <body style="min-height: 100vh; display: flex; flex-direction: column">
         <header data-bs-theme="dark">
-            <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+            <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"> <img src="logo-white-2.png" style="height:auto; width: 220px;"></a>
+                    <a class="navbar-brand" href="index.html"> <img src="logo-white-3.png" style="height:auto; width: 195px;"></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -32,7 +31,7 @@
                                 <a class="nav-link active" aria-current="page" href="RSVP_2.html">RSVP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="more_info.html">More Info</a>
+                                <a class="nav-link" href="About.html">About</a>
                             </li>
                         </ul>
                         
@@ -50,14 +49,13 @@
             <div class="container p-5" style="margin-top:5%; margin-bottom:5%">
 
                 <div class="p-3 mb-2 bg-transparent text-dark" style="background-image: url(x_shuttle_3.png); background-size:contain; background-position:right; background-repeat: no-repeat;">
-                        <div class="container-fluid py-5">
-                            <h1 class="display-5 fw-bold" style="color: white">RSVP Today!</h1>
-                            <p class="col-md-8 fs-4" style="color: white">Sign up to attend TEDxVandenberg either in person or virtually. <br>In person space is limited.</p>
-                            <br>
-                            <button class="btn btn-danger" type="button" style="border-radius: 30px">ATTEND IN PERSON</button>
-                            <button class="btn btn-danger" type="button" style="border-radius: 30px">ATTEND VIRTUALLY</button>
-                        </div>
+                    <div class="container-fluid py-5">
+                        <h1 class="display-9" style="color: white">RSVP Today!</h1>
+                        <p class="col-md-8 fs-4" style="color: white">Sign up to attend TEDxVandenbergSFB either in person or virtually. <br>In person space is limited.</p>
+                        <br>
+                        <button type="button" class="btn btn-danger" onclick="survey()" style="border-radius: 30px" id="button_rsvp">RSVP Here</button>
                     </div>
+                </div>
             </div>
 
 
@@ -66,7 +64,6 @@
                 <div class="row">
                     <div class="col-12 col-md">
                         <img src="x_shuttle_3.png" width="85px" height="55px" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
-                        <small class="d-block mb-3 text-body-secondary" style ="color: white !important">TEDxVandenbergSFB 2024</small>
                     </div>
 
                     <div class="col-6 col-md">
@@ -96,7 +93,12 @@
                     </div>
                     
                 </div>
+                <div style="color:white"><small>This independent TEDx event is operated under license from TED.</small> </div>
             </footer>
         </div>
     </body>
+    <script src="survey.js"></script>
+
 </html>
+
+<!--<script>(function(t,e,s,o){var n,c,l;t.SMCX=t.SMCX||[],e.getElementById(o)||(n=e.getElementsByTagName(s),c=n[n.length-1],l=e.createElement(s),l.type="text/javascript",l.async=!0,l.id=o,l.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd0zO8UO_2FEJ7AOu7T0CjpbqDPd8_2Fo_2BlEUlkmMNmS9P_2BFc.js",c.parentNode.insertBefore(l,c))})(window,document,"script","smcx-sdk");</script>-->
