@@ -25,15 +25,15 @@ section {
   transform: translate(0, 0);
 }
 
-.yellow {
-  background-color: lightyellow;
+.section1 {
+  background-color: none;
 }
-.red {
-  background-color: lightcoral;
+.section2 {
+  background-color: none;
 }
-.blue {
-  background-color: lightblue;
+.section3 {
+  background-color: none;
 }
-.green {
-  background-color: lightgreen;
+.section4 {
+  background-color: none;
 }
