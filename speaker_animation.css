@@ -1,3 +1,27 @@
+@media screen and (max-width: 768px) 
+{
+  #ted_logo_margin {
+    width: 100% !important
+  }
+
+  #car_resize {
+    width: 100% !important
+  }
+
+  #float_order {
+    flex-direction: column;
+  }
+
+  #resize_order1 {
+    order: 2;
+  }
+
+  #resize_order2 {
+    order: 1;
+  }
+}
+
+
 .fade-in-image {animation: fadeIn 1s;}
 
 @keyframes fadeIn {
@@ -49,3 +73,5 @@
 .hid.card9{
     animation-delay: .8s;
 }
+
+
