@@ -37,6 +37,11 @@
                                 <a class="nav-link active" aria-current="page" href="about.html">About</a>
                             </li>
                         </ul>
+
+                        <div style="color: gray; padding-right: 20px;">
+                            <span>Event Countdown: </span>
+                            <span id="demo"></span>
+                        </div>
                         
                         <form class="d-flex" role="search" action="about:blank">
                             <input class="form-control me-2 __safly_input_chrome __safly_input_ms" type="search" placeholder="Search" aria-label="Search">
@@ -67,7 +72,7 @@
                 </section>
 
                 <section class="tag section2 d-flex align-items-center">
-                    <div><img src="speaker_images/about4.png" style="width:120%; "></div>
+                    <div><img src="speaker_images/about2.png" style="width:120%; "></div>
                     <div style="z-index: 1; text-align: right;">
                         <h1 class="display-6" style="text-align: right;">About TED<br></h1> 
                          <p class="lead" style="color:white">TED is on a mission to discover and spread ideas 
@@ -79,10 +84,10 @@
                     </div>
                 </section>
                 
-                <section class="tag section3 d-flex align-items-center">
+                <section class="tag section3 d-flex align-items-center justify-content-around">
                     <div style=" z-index: 1;">
                         <h1 class="display-6" style="text-align: left;">TED History<br></h1> 
-                         <p class="lead" style="color:white">TED began in 1984 as a conference where Technology, 
+                         <p class="lead" style="color:white;">TED began in 1984 as a conference where Technology, 
                             Entertainment and Design converged, but today it spans a multitude of worldwide communities 
                             and initiatives exploring everything from science and business to education, arts and global 
                             issues. In addition to the hundreds of TED Talks curated from our annual conferences and 
@@ -95,8 +100,24 @@
                             launched Countdown, an initiative to accelerate solutions to the climate crisis and mobilize 
                             a movement for a net-zero future. View a full list of TED’s many programs and initiatives.</p>
                     </div>
-                    <div><img src="speaker_images/about2.png" style="width:200%; float:inline-end;"></div>
-                </section>
+                    <div><img src="speaker_images/about4.png" class="flex-fill"style="width:180%; float:inline-end; "></div>
+                </section><br>
+
+                <div class="tag section4 d-flex align-items-center text-center justify-content-center">
+                    <div>
+                        <h1 class="display-6">Connect<br></h1> 
+                        <p class="lead" style="color:white;">TED is owned by a nonprofit, nonpartisan foundation. 
+                            Our aim is to help create a future worth pursuing for all.<br>
+                            Follow TED on Twitter, Facebook, Instagram, TikTok and on LinkedIn.
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <a href="#"> <img class= "p-2" src="logos/facebook-logo.png" style="width:55px; height:55px"> </a>
+                            <a href="#"> <img class= "p-2" src="logos/twitter_logo.png" style="width:55px; height:55px"> </a>
+                            <a href="#"> <img class= "p-2" src="logos/instagram-logo.png" style="width:55px; height:55px"> </a>
+                            <a href="#"> <img class= "p-2" src="logos/linkedin-logo.png" style="width:55px; height:55px"> </a>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
 
@@ -139,5 +160,6 @@
         </div>
     </body>
     <script src="scroll_fade.js"></script>
+    <script src="countdown.js"></script>
 
 </html>
