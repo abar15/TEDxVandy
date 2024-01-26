@@ -19,6 +19,19 @@
   #resize_order2 {
     order: 1;
   }
+
+
+  #sec1pic{
+    display:none;
+  }
+
+  #sec2pic{
+    display:none;
+  }
+
+  #sec3pic{
+    display:none;
+  }
 }
 
 
